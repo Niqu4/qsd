@@ -1,0 +1,330 @@
+1610353554a:1:{s:25:"home_page/section_one.htm";a:6:{s:8:"fileName";s:25:"home_page/section_one.htm";s:7:"content";s:9909:"==
+<section id="one" class="main">
+        <div class="content">
+            <header class="major">
+                <h2>Наши преимущества</h2>
+            </header>
+            
+            <ul class="features">
+                <li class = "li-styles">
+                    <div class="12u"><span class="image fit"><img src="{{'assets/images/working.jpg'|theme}}" alt="Принимаем заказы без выходных" /></span></div>
+                    <div> 
+                        <h3>Практичность</h3> 
+                        <p> Для вашего удобства мы принимаем заказы без выходных</p> 
+                    </div>
+                </li>
+                
+                <li class = "li-styles">
+                    <div class="12u"><span class="image fit"><img src="{{'assets/images/door-to-door.jpg'|theme}}" alt="От двери до двери" /></span></div>
+                    <div> 
+                        <h3>Экономия времени</h3> 
+                        <p> Работаем в формате "от двери до двери" </p> 
+                    </div>
+                </li>
+                
+                <li class = "li-styles">
+                    <div class="12u"><span class="image fit"><img src="{{'assets/images/envelope.jpg'|theme}}" alt="Услуги трекинга" /></span></div>
+                    <div> 
+                        <h3>Трекинг</h3> 
+                        <p> Отслеживайте вашу посылку, будучи в курсе о статусе доставки </p> 
+                    </div>
+                </li>
+            </ul>
+        </div> 
+        
+  
+        	<script  src="{{'assets/js/splide.min.js'|theme}}"></script>
+			
+        			<div class="splide">
+            		    <h2> Выберите город отправления: </h2>
+                    	<div class="splide__track">
+                    		<ul class="splide__list">
+                    		
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/shymkent.jpg'|theme}})">
+                    			        <a href="{{'shymkent'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Шымкент </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/astana.jpg'|theme}})">
+                    			        <a href="{{'astana'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Нур-Султан </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/almaty.jpg'|theme}})">
+                    			        <a href="{{'almaty'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Алматы </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/atyrau.jpg'|theme}})">
+                    			        <a href="{{'atyrau'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Атырау </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/aktau.jpg'|theme}})">
+                    			        <a href="{{'aktau'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Актау </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/aktobe.jpg'|theme}})">
+                    			        <a href="{{'aktobe'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Актобе </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/uralsk.jpg'|theme}})">
+                    			        <a href="{{'uralsk'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Уральск </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/ust-kamenogorsk.jpg'|theme}})">
+                    			        <a href="{{'ust-kamenogorsk'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Усть-Каменогорск </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/pavlodar.jpg'|theme}})">
+                    			        <a href="{{'pavlodar'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Павлодар </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/kostanay.jpg'|theme}})">
+                    			        <a href="{{'kostanay'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Костанай </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/semey.jpg'|theme}})">
+                    			        <a href="{{'semey'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Семей </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/karaganda.jpg'|theme}})">
+                    			        <a href="{{'karaganda'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Караганда </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/kyzylorda.jpg'|theme}})">
+                    			        <a href="{{'kyzylorda'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Кызылорда </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/taraz.jpg'|theme}})">
+                    			        <a href="{{'taraz'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Тараз </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+
+                    		</ul>
+                    	</div>
+                    </div>
+                    
+                    <script>
+                        new Splide( '.splide', {
+                            direction: 'ttb',
+                            height   : '25rem',
+                            } ).mount();
+                    </script>
+</section>";s:5:"mtime";i:1610340000;s:6:"markup";s:9905:"<section id="one" class="main">
+        <div class="content">
+            <header class="major">
+                <h2>Наши преимущества</h2>
+            </header>
+            
+            <ul class="features">
+                <li class = "li-styles">
+                    <div class="12u"><span class="image fit"><img src="{{'assets/images/working.jpg'|theme}}" alt="Принимаем заказы без выходных" /></span></div>
+                    <div> 
+                        <h3>Практичность</h3> 
+                        <p> Для вашего удобства мы принимаем заказы без выходных</p> 
+                    </div>
+                </li>
+                
+                <li class = "li-styles">
+                    <div class="12u"><span class="image fit"><img src="{{'assets/images/door-to-door.jpg'|theme}}" alt="От двери до двери" /></span></div>
+                    <div> 
+                        <h3>Экономия времени</h3> 
+                        <p> Работаем в формате "от двери до двери" </p> 
+                    </div>
+                </li>
+                
+                <li class = "li-styles">
+                    <div class="12u"><span class="image fit"><img src="{{'assets/images/envelope.jpg'|theme}}" alt="Услуги трекинга" /></span></div>
+                    <div> 
+                        <h3>Трекинг</h3> 
+                        <p> Отслеживайте вашу посылку, будучи в курсе о статусе доставки </p> 
+                    </div>
+                </li>
+            </ul>
+        </div> 
+        
+  
+        	<script  src="{{'assets/js/splide.min.js'|theme}}"></script>
+			
+        			<div class="splide">
+            		    <h2> Выберите город отправления: </h2>
+                    	<div class="splide__track">
+                    		<ul class="splide__list">
+                    		
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/shymkent.jpg'|theme}})">
+                    			        <a href="{{'shymkent'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Шымкент </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/astana.jpg'|theme}})">
+                    			        <a href="{{'astana'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Нур-Султан </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/almaty.jpg'|theme}})">
+                    			        <a href="{{'almaty'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Алматы </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/atyrau.jpg'|theme}})">
+                    			        <a href="{{'atyrau'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Атырау </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/aktau.jpg'|theme}})">
+                    			        <a href="{{'aktau'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Актау </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/aktobe.jpg'|theme}})">
+                    			        <a href="{{'aktobe'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Актобе </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/uralsk.jpg'|theme}})">
+                    			        <a href="{{'uralsk'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Уральск </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/ust-kamenogorsk.jpg'|theme}})">
+                    			        <a href="{{'ust-kamenogorsk'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Усть-Каменогорск </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/pavlodar.jpg'|theme}})">
+                    			        <a href="{{'pavlodar'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Павлодар </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/kostanay.jpg'|theme}})">
+                    			        <a href="{{'kostanay'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Костанай </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/semey.jpg'|theme}})">
+                    			        <a href="{{'semey'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Семей </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/karaganda.jpg'|theme}})">
+                    			        <a href="{{'karaganda'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Караганда </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/kyzylorda.jpg'|theme}})">
+                    			        <a href="{{'kyzylorda'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Кызылорда </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+                    			<li class="splide__slide">
+                    			    <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url({{'assets/images/cities/taraz.jpg'|theme}})">
+                    			        <a href="{{'taraz'|page}}" target="_blank"> 
+                    			            <h2 class = "slider-info" style="color: white;"> Тараз </h2> 
+                			            </a>
+                    			    </i>
+                    			</li>
+                    			
+
+                    		</ul>
+                    	</div>
+                    </div>
+                    
+                    <script>
+                        new Splide( '.splide', {
+                            direction: 'ttb',
+                            height   : '25rem',
+                            } ).mount();
+                    </script>
+</section>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}
