@@ -45,5 +45,5 @@
 * Fixed the detection of protocol-relative CSS imports
 * Updated AssetCollection to not add several time the same variable in path
 * Fixed the merging of the environment variables to keep the configuration of the NODE_PATH working
-* Fixed the support of ``{% embed %}`` in the Twig extractor
+* Fixed the support of ``{{% embed %}}`` in the Twig extractor
 * Fixed the support of asset variables in GlobAsset
