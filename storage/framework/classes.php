@@ -13,4 +13,7 @@
   'system\\Controllers\\mailtemplates' => 'modules\\system\\controllers\\mailtemplates.php',
   'system\\Controllers\\mailbrandsettings' => 'modules\\system\\controllers\\mailbrandsettings.php',
   'backend\\Controllers\\accesslogs' => 'modules\\backend\\controllers\\accesslogs.php',
+  'martin\\gitreposmanager\\Plugin' => 'plugins\\martin\\gitreposmanager\\Plugin.php',
+  'martin\\gitreposmanager\\Controllers\\repos' => 'plugins\\martin\\gitreposmanager\\controllers\\repos.php',
+  'Martin\\GitReposManager\\Models\\Repo' => 'plugins\\martin\\gitreposmanager\\models\\Repo.php',
 );

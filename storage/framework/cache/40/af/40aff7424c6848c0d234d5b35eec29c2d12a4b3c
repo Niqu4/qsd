@@ -1,8 +1,0 @@
-1610343524a:1:{s:19:"lichnyj-kabinet.htm";a:9:{s:8:"fileName";s:19:"lichnyj-kabinet.htm";s:7:"content";s:207:"title = "Личный кабинет"
-url = "/lichnyj-kabinet"
-layout = "generic"
-is_hidden = 0
-==
-<iframe src="https://home.courierexe.ru/108/auth/login" title="Личный кабинет">
-</iframe>";s:5:"mtime";i:1609836296;s:6:"markup";s:103:"<iframe src="https://home.courierexe.ru/108/auth/login" title="Личный кабинет">
-</iframe>";s:4:"code";N;s:5:"title";s:27:"Личный кабинет";s:3:"url";s:16:"/lichnyj-kabinet";s:6:"layout";s:7:"generic";s:9:"is_hidden";s:1:"0";}}
