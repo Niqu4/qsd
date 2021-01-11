@@ -1,0 +1,26 @@
+1610343238a:1:{s:26:"home_page/section_four.htm";a:6:{s:8:"fileName";s:26:"home_page/section_four.htm";s:7:"content";s:735:"==
+<section id="four" class="main">
+    <header class="major">
+        <h2>Личный кабинет пользователя</h2>
+        <p>Отсюда вы можете перейти в личный кабинет, расчитать стоимость доставки или отследить товар</p>
+    </header>
+    <footer class="major">
+        <ul class="actions">
+            <li><a href="{{'lichnyj-kabinet'|page}}" class="button">Личный кабинет</a></li>
+            <li><a href="{{'calc'|page}}" class="button">Тарифный калькулятор</a></li>
+            <li><a href="{{'tracking'|page}}" class="button">Трекинг</a></li>
+        </ul>
+    </footer>
+</section>";s:5:"mtime";i:1610339151;s:6:"markup";s:731:"<section id="four" class="main">
+    <header class="major">
+        <h2>Личный кабинет пользователя</h2>
+        <p>Отсюда вы можете перейти в личный кабинет, расчитать стоимость доставки или отследить товар</p>
+    </header>
+    <footer class="major">
+        <ul class="actions">
+            <li><a href="{{'lichnyj-kabinet'|page}}" class="button">Личный кабинет</a></li>
+            <li><a href="{{'calc'|page}}" class="button">Тарифный калькулятор</a></li>
+            <li><a href="{{'tracking'|page}}" class="button">Трекинг</a></li>
+        </ul>
+    </footer>
+</section>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

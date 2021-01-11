@@ -1,0 +1,8 @@
+name: QSD.kz
+description: KZQSD
+author: 'Nurali Uzakaliyev'
+homepage: ''
+code: ''
+form: fields.yaml
+require:
+    - RainLab.Blog

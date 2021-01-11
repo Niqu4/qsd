@@ -1,0 +1,54 @@
+1610343524a:1:{s:20:"all_pages/footer.htm";a:6:{s:8:"fileName";s:20:"all_pages/footer.htm";s:7:"content";s:2333:"==
+<!-- Footer -->
+<footer id="footer">
+    <section>
+        <h2>Наша цель</h2>
+        <p>Цель компании 'QSD.kz' – стать лидирующей курьерской Компанией в Республике Казахстан, обеспечивая высокий уровень сервиса, соответствующий мировым стандартам, и предоставляя превосходное качество полного комплекса оказываемых услуг. Постоянное совершенствование производственных процессов, качества обслуживания и внедрение новейших технологий для того, чтобы быть удобнее и выгоднее для клиента.</p>
+    </section>
+    <section>
+        <h2>Свяжитесь с нами</h2>
+        <dl class="alt">
+            <dt>Адрес</dt>
+            <dd>ул. Рыскулова 84 &bull; Шымкент &bull; Казахстан</dd>
+            <dt>Моб.:</dt>
+            <dd>+7 (707) 258 48 66</dd>
+            <dt>Email</dt>
+            <dd><a href="#">qsd@qsd.kz</a></dd>
+        </dl>
+        <ul class="icons">
+            <li><a href="https://api.whatsapp.com/send?phone=+77072584867&text=Здравствуйте, я заинтересован в услугах вашей компании" 
+                class="icon fa-whatsapp alt"><span class="label">WhatsApp</span></a></li>
+            <li><a href="https://t.me/QSD584866" class="icon fa-paper-plane alt"><span class="label">Telegram</span></a></li>
+            <li><a href="https://www.instagram.com/qsd.kz/" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
+            <li><a href="https://www.facebook.com/pg/%D0%9A%D1%83%D1%80%D1%8C%D0%B5%D1%80%D1%81%D0%BA%D0%B0%D1%8F-%D0%A1%D0%BB%D1%83%D0%B6%D0%B1%D0%B0-Qazaq-Sapa-819579614886972" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
+            <li><a href="https://go.2gis.com/likqub" class="icon fa-map-signs alt"><span class="label">Google Maps</span></a></li>
+        </ul>
+    </section>
+    <p class="copyright">&copy; QSD. Design: <a href="https://about.me/nurali">NU</a>.</p>
+</footer>";s:5:"mtime";i:1609840915;s:6:"markup";s:2329:"<!-- Footer -->
+<footer id="footer">
+    <section>
+        <h2>Наша цель</h2>
+        <p>Цель компании 'QSD.kz' – стать лидирующей курьерской Компанией в Республике Казахстан, обеспечивая высокий уровень сервиса, соответствующий мировым стандартам, и предоставляя превосходное качество полного комплекса оказываемых услуг. Постоянное совершенствование производственных процессов, качества обслуживания и внедрение новейших технологий для того, чтобы быть удобнее и выгоднее для клиента.</p>
+    </section>
+    <section>
+        <h2>Свяжитесь с нами</h2>
+        <dl class="alt">
+            <dt>Адрес</dt>
+            <dd>ул. Рыскулова 84 &bull; Шымкент &bull; Казахстан</dd>
+            <dt>Моб.:</dt>
+            <dd>+7 (707) 258 48 66</dd>
+            <dt>Email</dt>
+            <dd><a href="#">qsd@qsd.kz</a></dd>
+        </dl>
+        <ul class="icons">
+            <li><a href="https://api.whatsapp.com/send?phone=+77072584867&text=Здравствуйте, я заинтересован в услугах вашей компании" 
+                class="icon fa-whatsapp alt"><span class="label">WhatsApp</span></a></li>
+            <li><a href="https://t.me/QSD584866" class="icon fa-paper-plane alt"><span class="label">Telegram</span></a></li>
+            <li><a href="https://www.instagram.com/qsd.kz/" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
+            <li><a href="https://www.facebook.com/pg/%D0%9A%D1%83%D1%80%D1%8C%D0%B5%D1%80%D1%81%D0%BA%D0%B0%D1%8F-%D0%A1%D0%BB%D1%83%D0%B6%D0%B1%D0%B0-Qazaq-Sapa-819579614886972" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
+            <li><a href="https://go.2gis.com/likqub" class="icon fa-map-signs alt"><span class="label">Google Maps</span></a></li>
+        </ul>
+    </section>
+    <p class="copyright">&copy; QSD. Design: <a href="https://about.me/nurali">NU</a>.</p>
+</footer>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}
