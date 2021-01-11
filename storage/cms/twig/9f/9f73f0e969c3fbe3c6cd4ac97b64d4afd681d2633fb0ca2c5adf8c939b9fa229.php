@@ -30,13 +30,13 @@ class __TwigTemplate_56305edc9240c6522dc4ee3db8dc042bc78d6ed84a96b91e4d0e6e98fc9
         ];
         $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
         $tags = array();
-        $filters = array();
+        $filters = array("page" => 8);
         $functions = array();
 
         try {
             $this->sandbox->checkSecurity(
                 [],
-                [],
+                ['page'],
                 []
             );
         } catch (SecurityError $e) {
@@ -66,6 +66,10 @@ class __TwigTemplate_56305edc9240c6522dc4ee3db8dc042bc78d6ed84a96b91e4d0e6e98fc9
         <li><a href=\"#two\">Услуги</a></li>
         <li><a href=\"#three\">Сроки доставки</a></li>
         <li><a href=\"#four\">Личный кабинет</a></li>
+        <li><a href=\"";
+        // line 8
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("oformit-zakaz");
+        echo "\">Оформить заказ</a></li>
     </ul>
 </nav>";
     }
@@ -75,9 +79,14 @@ class __TwigTemplate_56305edc9240c6522dc4ee3db8dc042bc78d6ed84a96b91e4d0e6e98fc9
         return "C:\\xampp\\htdocs\\qsd/themes/zwiebl-zwiebl_stellar/partials/home_page/navigation.htm";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  62 => 1,);
+        return array (  71 => 8,  62 => 1,);
     }
 
     public function getSourceContext()
@@ -89,6 +98,7 @@ class __TwigTemplate_56305edc9240c6522dc4ee3db8dc042bc78d6ed84a96b91e4d0e6e98fc9
         <li><a href=\"#two\">Услуги</a></li>
         <li><a href=\"#three\">Сроки доставки</a></li>
         <li><a href=\"#four\">Личный кабинет</a></li>
+        <li><a href=\"{{ 'oformit-zakaz'|page }}\">Оформить заказ</a></li>
     </ul>
 </nav>", "C:\\xampp\\htdocs\\qsd/themes/zwiebl-zwiebl_stellar/partials/home_page/navigation.htm", "");
     }

@@ -93,12 +93,12 @@ class __TwigTemplate_39b5d165f1757439c90e3fcd5928cef527c429defb407927caf0c26d5c9
         </li>
     </ul>
     <footer class=\"major\">
-        <ul class=\"actions\">
-            <li><a href=\"";
+<!--         <ul class=\"actions\">
+    <li><a href=\"";
         // line 36
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("generic");
         echo "\" class=\"button\">Заказать звонок?</a></li>
-        </ul>
+</ul> -->
     </footer>
 </section>";
     }
@@ -154,9 +154,9 @@ class __TwigTemplate_39b5d165f1757439c90e3fcd5928cef527c429defb407927caf0c26d5c9
         </li>
     </ul>
     <footer class=\"major\">
-        <ul class=\"actions\">
-            <li><a href=\"{{'generic'|page}}\" class=\"button\">Заказать звонок?</a></li>
-        </ul>
+<!--         <ul class=\"actions\">
+    <li><a href=\"{{'generic'|page}}\" class=\"button\">Заказать звонок?</a></li>
+</ul> -->
     </footer>
 </section>", "C:\\xampp\\htdocs\\qsd/themes/zwiebl-zwiebl_stellar/partials/home_page/section_three.htm", "");
     }

@@ -1,4 +1,4 @@
-1610353553a:1:{s:7:"jur.htm";a:9:{s:8:"fileName";s:7:"jur.htm";s:7:"content";s:1417:"title = "Юридические лица"
+1610358755a:1:{s:7:"jur.htm";a:9:{s:8:"fileName";s:7:"jur.htm";s:7:"content";s:1435:"title = "Юридические лица"
 url = "/yuridicheskie-lica"
 layout = "generic"
 is_hidden = 0
@@ -19,8 +19,8 @@ is_hidden = 0
         <ul>
     </p>
 <ul class="actions">
-    <li><a href="{{ 'elements'|page }}" class="button">View Elements Page</a></li>
-</ul>";s:5:"mtime";i:1609927624;s:6:"markup";s:1306:"<span class="image main"><img src="{{'assets/images/jur2.jpg'|theme}}" alt=""></span>
+    <li><a href="{{ 'elements'|oformit-zakaz }}" class="button">Оформить заказ</a></li>
+</ul>";s:5:"mtime";i:1610357433;s:6:"markup";s:1324:"<span class="image main"><img src="{{'assets/images/jur2.jpg'|theme}}" alt=""></span>
 <h2>Юридические лица</h2>
     <p>
         Курьерская служба «QSD» предлагает широкий спектр услуг по доставке документов и грузов по территории РК, РФ, в т.ч. и заборы с РФ.
@@ -36,5 +36,5 @@ is_hidden = 0
         <ul>
     </p>
 <ul class="actions">
-    <li><a href="{{ 'elements'|page }}" class="button">View Elements Page</a></li>
+    <li><a href="{{ 'elements'|oformit-zakaz }}" class="button">Оформить заказ</a></li>
 </ul>";s:4:"code";N;s:5:"title";s:31:"Юридические лица";s:3:"url";s:19:"/yuridicheskie-lica";s:6:"layout";s:7:"generic";s:9:"is_hidden";s:1:"0";}}
