@@ -90,6 +90,14 @@ class __TwigTemplate_b546a7a2318ba359da91f159f0fbb58e10320349ac2e42f8029b1df6fe7
             echo "active";
         }
         echo "\">Личный кабинет</a></li>
+        <li><a href=\"";
+        // line 8
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("oformit-zakaz");
+        echo "\" class=\"";
+        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, true, 8), "id", [], "any", false, false, true, 8) == "oformit-zakaz")) {
+            echo "active";
+        }
+        echo "\">Оформить заказ</a></li>
     </ul>
 </nav>";
     }
@@ -106,7 +114,7 @@ class __TwigTemplate_b546a7a2318ba359da91f159f0fbb58e10320349ac2e42f8029b1df6fe7
 
     public function getDebugInfo()
     {
-        return array (  87 => 7,  79 => 6,  71 => 5,  67 => 4,  62 => 1,);
+        return array (  95 => 8,  87 => 7,  79 => 6,  71 => 5,  67 => 4,  62 => 1,);
     }
 
     public function getSourceContext()
@@ -118,6 +126,7 @@ class __TwigTemplate_b546a7a2318ba359da91f159f0fbb58e10320349ac2e42f8029b1df6fe7
         <li><a href=\"{{ 'calc'|page }}\" class=\"{% if this.page.id == 'calc' %}active{% endif %}\">Тарифный калькулятор</a></li>
         <li><a href=\"{{ 'tracking'|page }}\" class=\"{% if this.page.id == 'tracking' %}active{% endif %}\">Трекинг</a></li>
         <li><a href=\"{{ 'lichnyj-kabinet'|page }}\" class=\"{% if this.page.id == 'lichnyj-kabinet' %}active{% endif %}\">Личный кабинет</a></li>
+        <li><a href=\"{{ 'oformit-zakaz'|page }}\" class=\"{% if this.page.id == 'oformit-zakaz' %}active{% endif %}\">Оформить заказ</a></li>
     </ul>
 </nav>", "C:\\xampp\\htdocs\\qsd/themes/zwiebl-zwiebl_stellar/partials/all_pages/navigation.htm", "");
     }

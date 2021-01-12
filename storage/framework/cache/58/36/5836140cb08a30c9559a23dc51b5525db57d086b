@@ -1,4 +1,4 @@
-1610358247a:1:{s:24:"all_pages/navigation.htm";a:6:{s:8:"fileName";s:24:"all_pages/navigation.htm";s:7:"content";s:565:"==
+1610428123a:1:{s:24:"all_pages/navigation.htm";a:6:{s:8:"fileName";s:24:"all_pages/navigation.htm";s:7:"content";s:718:"==
 <!-- Nav -->
 <nav id="nav">
     <ul>
@@ -6,13 +6,15 @@
         <li><a href="{{ 'calc'|page }}" class="{% if this.page.id == 'calc' %}active{% endif %}">Тарифный калькулятор</a></li>
         <li><a href="{{ 'tracking'|page }}" class="{% if this.page.id == 'tracking' %}active{% endif %}">Трекинг</a></li>
         <li><a href="{{ 'lichnyj-kabinet'|page }}" class="{% if this.page.id == 'lichnyj-kabinet' %}active{% endif %}">Личный кабинет</a></li>
+        <li><a href="{{ 'oformit-zakaz'|page }}" class="{% if this.page.id == 'oformit-zakaz' %}active{% endif %}">Оформить заказ</a></li>
     </ul>
-</nav>";s:5:"mtime";i:1610357547;s:6:"markup";s:561:"<!-- Nav -->
+</nav>";s:5:"mtime";i:1610423850;s:6:"markup";s:714:"<!-- Nav -->
 <nav id="nav">
     <ul>
         <li><a href="{{ 'home'|page }}">На главную</a></li>
         <li><a href="{{ 'calc'|page }}" class="{% if this.page.id == 'calc' %}active{% endif %}">Тарифный калькулятор</a></li>
         <li><a href="{{ 'tracking'|page }}" class="{% if this.page.id == 'tracking' %}active{% endif %}">Трекинг</a></li>
         <li><a href="{{ 'lichnyj-kabinet'|page }}" class="{% if this.page.id == 'lichnyj-kabinet' %}active{% endif %}">Личный кабинет</a></li>
+        <li><a href="{{ 'oformit-zakaz'|page }}" class="{% if this.page.id == 'oformit-zakaz' %}active{% endif %}">Оформить заказ</a></li>
     </ul>
 </nav>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}
