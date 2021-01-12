@@ -29,13 +29,13 @@ class __TwigTemplate_851c1443ea4a79631b011e41cf88454e4ea391d40cbb0512b2358aeeebc
         $this->blocks = [
         ];
         $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
-        $tags = array("if" => 15, "component" => 74);
+        $tags = array("if" => 15);
         $filters = array("escape" => 13);
         $functions = array();
 
         try {
             $this->sandbox->checkSecurity(
-                ['if', 'component'],
+                ['if'],
                 ['escape'],
                 []
             );
@@ -144,13 +144,7 @@ class __TwigTemplate_851c1443ea4a79631b011e41cf88454e4ea391d40cbb0512b2358aeeebc
             </div>
         </div>
     </form>
-    ";
-        // line 74
-        $context['__cms_component_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("contactForm"        , $context['__cms_component_params']        );
-        unset($context['__cms_component_params']);
-        // line 75
-        echo "    
+
 </section>";
     }
 
@@ -166,7 +160,7 @@ class __TwigTemplate_851c1443ea4a79631b011e41cf88454e4ea391d40cbb0512b2358aeeebc
 
     public function getDebugInfo()
     {
-        return array (  153 => 75,  149 => 74,  90 => 17,  86 => 16,  84 => 15,  80 => 14,  76 => 13,  62 => 1,);
+        return array (  90 => 17,  86 => 16,  84 => 15,  80 => 14,  76 => 13,  62 => 1,);
     }
 
     public function getSourceContext()
@@ -244,8 +238,7 @@ class __TwigTemplate_851c1443ea4a79631b011e41cf88454e4ea391d40cbb0512b2358aeeebc
             </div>
         </div>
     </form>
-    {% component 'contactForm' %}
-    
+
 </section>", "C:\\xampp\\htdocs\\qsd/themes/zwiebl-zwiebl_stellar/pages/oformit-zakaz.htm", "");
     }
 }
