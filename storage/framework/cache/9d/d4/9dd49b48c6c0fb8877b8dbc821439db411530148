@@ -1,4 +1,4 @@
-1610434638a:1:{s:17:"oformit-zakaz.htm";a:10:{s:8:"fileName";s:17:"oformit-zakaz.htm";s:7:"content";s:4273:"title = "Оформить заказ"
+1610512390a:1:{s:17:"oformit-zakaz.htm";a:10:{s:8:"fileName";s:17:"oformit-zakaz.htm";s:7:"content";s:4020:"title = "Оформить заказ"
 url = "/oformit-zakaz"
 layout = "generic"
 description = "На данной странице вы можете оформить заказ."
@@ -16,11 +16,7 @@ is_hidden = 0
     <h2>Форма вызова курьера</h2>
     <h4>Заполните форму для вызова курьера. Заявки на текущий день принимаются до 15.00. После указанного времени заявку можно сделать только на следующий день.
     <br> Пожалуйста, заполните все <u>обязательные поля</u>. </h4>
-    <form method="post" action="#"    data-request="{{ __SELF__ }}::onMailSend"
-                                      data-request-update="'{{ __SELF__ }}::confirm': '.confirm-contact-container'"
-                                      {% if __SELF__.enableFileUpload %}
-                                      data-request-files
-                                      {% endif %}>
+    <form method="post" action="#" onsubmit="openModal()" id="myForm">
         <div class="row uniform">
             <div class="6u 12u$(xsmall)">
                 <input type="text" name="name" value="" placeholder="ФИО" required/>
@@ -33,7 +29,7 @@ is_hidden = 0
                 <input type="email" name="email" value="" placeholder="Email" required/>
             </div>
             <div class="6u 12u$(xsmall)">
-                <input type="text" name="phone_number" value="" placeholder="Контактный телефон" required />
+                <input type="text" name="phone_number" value="" placeholder="Контактный телефон" pattern="[0-9]" required />
             </div>
             
             <div class="6u 12u$(xsmall)">
@@ -46,10 +42,10 @@ is_hidden = 0
                 <div class="select-wrapper">
                     <select name="type" required>
                         <option value="">- Вид услуги -</option>
-                        <option value="1">Экспресс</option>
-                        <option value="1">Супер экспресс</option>
-                        <option value="1">Эконом</option>
-                        <option value="1">Международный экспресс</option>
+                        <option value="express">Экспресс</option>
+                        <option value="super_express">Супер экспресс</option>
+                        <option value="econom">Эконом</option>
+                        <option value="international_express">Международный экспресс</option>
                     </select>
                 </div>
             </div>
@@ -59,8 +55,8 @@ is_hidden = 0
                     <select name="payment" required>
                         <option value="">- Оплата -</option>
                         <option value="1">Наличными отправитель</option>
-                        <option value="1">Наличными получатель</option>
-                        <option value="1">Безналичный расчет</option>
+                        <option value="2">Наличными получатель</option>
+                        <option value="3">Безналичный расчет</option>
                     </select>
                 </div>
             </div>
@@ -77,8 +73,7 @@ is_hidden = 0
             </div>
         </div>
     </form>
-
-</section>";s:5:"mtime";i:1610433364;s:6:"markup";s:4072:"<h2>Заявку на вызов курьера Вы можете оформить одним из удобных для Вас способов: </h2>
+</section>";s:5:"mtime";i:1610509918;s:6:"markup";s:3819:"<h2>Заявку на вызов курьера Вы можете оформить одним из удобных для Вас способов: </h2>
  
 <p>
     <li> Вызов курьера по телефону:  58-48-66, 258-48-66, 8 (707) 258-48-66 </li>
@@ -90,11 +85,7 @@ is_hidden = 0
     <h2>Форма вызова курьера</h2>
     <h4>Заполните форму для вызова курьера. Заявки на текущий день принимаются до 15.00. После указанного времени заявку можно сделать только на следующий день.
     <br> Пожалуйста, заполните все <u>обязательные поля</u>. </h4>
-    <form method="post" action="#"    data-request="{{ __SELF__ }}::onMailSend"
-                                      data-request-update="'{{ __SELF__ }}::confirm': '.confirm-contact-container'"
-                                      {% if __SELF__.enableFileUpload %}
-                                      data-request-files
-                                      {% endif %}>
+    <form method="post" action="#" onsubmit="openModal()" id="myForm">
         <div class="row uniform">
             <div class="6u 12u$(xsmall)">
                 <input type="text" name="name" value="" placeholder="ФИО" required/>
@@ -107,7 +98,7 @@ is_hidden = 0
                 <input type="email" name="email" value="" placeholder="Email" required/>
             </div>
             <div class="6u 12u$(xsmall)">
-                <input type="text" name="phone_number" value="" placeholder="Контактный телефон" required />
+                <input type="text" name="phone_number" value="" placeholder="Контактный телефон" pattern="[0-9]" required />
             </div>
             
             <div class="6u 12u$(xsmall)">
@@ -120,10 +111,10 @@ is_hidden = 0
                 <div class="select-wrapper">
                     <select name="type" required>
                         <option value="">- Вид услуги -</option>
-                        <option value="1">Экспресс</option>
-                        <option value="1">Супер экспресс</option>
-                        <option value="1">Эконом</option>
-                        <option value="1">Международный экспресс</option>
+                        <option value="express">Экспресс</option>
+                        <option value="super_express">Супер экспресс</option>
+                        <option value="econom">Эконом</option>
+                        <option value="international_express">Международный экспресс</option>
                     </select>
                 </div>
             </div>
@@ -133,8 +124,8 @@ is_hidden = 0
                     <select name="payment" required>
                         <option value="">- Оплата -</option>
                         <option value="1">Наличными отправитель</option>
-                        <option value="1">Наличными получатель</option>
-                        <option value="1">Безналичный расчет</option>
+                        <option value="2">Наличными получатель</option>
+                        <option value="3">Безналичный расчет</option>
                     </select>
                 </div>
             </div>
@@ -151,5 +142,4 @@ is_hidden = 0
             </div>
         </div>
     </form>
-
 </section>";s:4:"code";N;s:5:"title";s:27:"Оформить заказ";s:3:"url";s:14:"/oformit-zakaz";s:6:"layout";s:7:"generic";s:11:"description";s:81:"На данной странице вы можете оформить заказ.";s:9:"is_hidden";s:1:"0";}}

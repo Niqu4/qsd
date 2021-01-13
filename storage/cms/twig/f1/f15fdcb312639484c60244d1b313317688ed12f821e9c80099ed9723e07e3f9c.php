@@ -29,14 +29,14 @@ class __TwigTemplate_851c1443ea4a79631b011e41cf88454e4ea391d40cbb0512b2358aeeebc
         $this->blocks = [
         ];
         $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
-        $tags = array("if" => 15);
-        $filters = array("escape" => 13);
+        $tags = array();
+        $filters = array();
         $functions = array();
 
         try {
             $this->sandbox->checkSecurity(
-                ['if'],
-                ['escape'],
+                [],
+                [],
                 []
             );
         } catch (SecurityError $e) {
@@ -71,23 +71,7 @@ class __TwigTemplate_851c1443ea4a79631b011e41cf88454e4ea391d40cbb0512b2358aeeebc
     <h2>Форма вызова курьера</h2>
     <h4>Заполните форму для вызова курьера. Заявки на текущий день принимаются до 15.00. После указанного времени заявку можно сделать только на следующий день.
     <br> Пожалуйста, заполните все <u>обязательные поля</u>. </h4>
-    <form method=\"post\" action=\"#\"    data-request=\"";
-        // line 13
-        echo twig_escape_filter($this->env, $this->sandbox->ensureToStringAllowed(($context["__SELF__"] ?? null), 13, $this->source), "html", null, true);
-        echo "::onMailSend\"
-                                      data-request-update=\"'";
-        // line 14
-        echo twig_escape_filter($this->env, $this->sandbox->ensureToStringAllowed(($context["__SELF__"] ?? null), 14, $this->source), "html", null, true);
-        echo "::confirm': '.confirm-contact-container'\"
-                                      ";
-        // line 15
-        if (twig_get_attribute($this->env, $this->source, ($context["__SELF__"] ?? null), "enableFileUpload", [], "any", false, false, true, 15)) {
-            // line 16
-            echo "                                      data-request-files
-                                      ";
-        }
-        // line 17
-        echo ">
+    <form method=\"post\" action=\"#\" onsubmit=\"openModal()\" id=\"myForm\">
         <div class=\"row uniform\">
             <div class=\"6u 12u\$(xsmall)\">
                 <input type=\"text\" name=\"name\" value=\"\" placeholder=\"ФИО\" required/>
@@ -100,7 +84,7 @@ class __TwigTemplate_851c1443ea4a79631b011e41cf88454e4ea391d40cbb0512b2358aeeebc
                 <input type=\"email\" name=\"email\" value=\"\" placeholder=\"Email\" required/>
             </div>
             <div class=\"6u 12u\$(xsmall)\">
-                <input type=\"text\" name=\"phone_number\" value=\"\" placeholder=\"Контактный телефон\" required />
+                <input type=\"text\" name=\"phone_number\" value=\"\" placeholder=\"Контактный телефон\" pattern=\"[0-9]\" required />
             </div>
             
             <div class=\"6u 12u\$(xsmall)\">
@@ -113,10 +97,10 @@ class __TwigTemplate_851c1443ea4a79631b011e41cf88454e4ea391d40cbb0512b2358aeeebc
                 <div class=\"select-wrapper\">
                     <select name=\"type\" required>
                         <option value=\"\">- Вид услуги -</option>
-                        <option value=\"1\">Экспресс</option>
-                        <option value=\"1\">Супер экспресс</option>
-                        <option value=\"1\">Эконом</option>
-                        <option value=\"1\">Международный экспресс</option>
+                        <option value=\"express\">Экспресс</option>
+                        <option value=\"super_express\">Супер экспресс</option>
+                        <option value=\"econom\">Эконом</option>
+                        <option value=\"international_express\">Международный экспресс</option>
                     </select>
                 </div>
             </div>
@@ -126,8 +110,8 @@ class __TwigTemplate_851c1443ea4a79631b011e41cf88454e4ea391d40cbb0512b2358aeeebc
                     <select name=\"payment\" required>
                         <option value=\"\">- Оплата -</option>
                         <option value=\"1\">Наличными отправитель</option>
-                        <option value=\"1\">Наличными получатель</option>
-                        <option value=\"1\">Безналичный расчет</option>
+                        <option value=\"2\">Наличными получатель</option>
+                        <option value=\"3\">Безналичный расчет</option>
                     </select>
                 </div>
             </div>
@@ -144,7 +128,6 @@ class __TwigTemplate_851c1443ea4a79631b011e41cf88454e4ea391d40cbb0512b2358aeeebc
             </div>
         </div>
     </form>
-
 </section>";
     }
 
@@ -153,14 +136,9 @@ class __TwigTemplate_851c1443ea4a79631b011e41cf88454e4ea391d40cbb0512b2358aeeebc
         return "C:\\xampp\\htdocs\\qsd/themes/zwiebl-zwiebl_stellar/pages/oformit-zakaz.htm";
     }
 
-    public function isTraitable()
-    {
-        return false;
-    }
-
     public function getDebugInfo()
     {
-        return array (  90 => 17,  86 => 16,  84 => 15,  80 => 14,  76 => 13,  62 => 1,);
+        return array (  62 => 1,);
     }
 
     public function getSourceContext()
@@ -177,11 +155,7 @@ class __TwigTemplate_851c1443ea4a79631b011e41cf88454e4ea391d40cbb0512b2358aeeebc
     <h2>Форма вызова курьера</h2>
     <h4>Заполните форму для вызова курьера. Заявки на текущий день принимаются до 15.00. После указанного времени заявку можно сделать только на следующий день.
     <br> Пожалуйста, заполните все <u>обязательные поля</u>. </h4>
-    <form method=\"post\" action=\"#\"    data-request=\"{{ __SELF__ }}::onMailSend\"
-                                      data-request-update=\"'{{ __SELF__ }}::confirm': '.confirm-contact-container'\"
-                                      {% if __SELF__.enableFileUpload %}
-                                      data-request-files
-                                      {% endif %}>
+    <form method=\"post\" action=\"#\" onsubmit=\"openModal()\" id=\"myForm\">
         <div class=\"row uniform\">
             <div class=\"6u 12u\$(xsmall)\">
                 <input type=\"text\" name=\"name\" value=\"\" placeholder=\"ФИО\" required/>
@@ -194,7 +168,7 @@ class __TwigTemplate_851c1443ea4a79631b011e41cf88454e4ea391d40cbb0512b2358aeeebc
                 <input type=\"email\" name=\"email\" value=\"\" placeholder=\"Email\" required/>
             </div>
             <div class=\"6u 12u\$(xsmall)\">
-                <input type=\"text\" name=\"phone_number\" value=\"\" placeholder=\"Контактный телефон\" required />
+                <input type=\"text\" name=\"phone_number\" value=\"\" placeholder=\"Контактный телефон\" pattern=\"[0-9]\" required />
             </div>
             
             <div class=\"6u 12u\$(xsmall)\">
@@ -207,10 +181,10 @@ class __TwigTemplate_851c1443ea4a79631b011e41cf88454e4ea391d40cbb0512b2358aeeebc
                 <div class=\"select-wrapper\">
                     <select name=\"type\" required>
                         <option value=\"\">- Вид услуги -</option>
-                        <option value=\"1\">Экспресс</option>
-                        <option value=\"1\">Супер экспресс</option>
-                        <option value=\"1\">Эконом</option>
-                        <option value=\"1\">Международный экспресс</option>
+                        <option value=\"express\">Экспресс</option>
+                        <option value=\"super_express\">Супер экспресс</option>
+                        <option value=\"econom\">Эконом</option>
+                        <option value=\"international_express\">Международный экспресс</option>
                     </select>
                 </div>
             </div>
@@ -220,8 +194,8 @@ class __TwigTemplate_851c1443ea4a79631b011e41cf88454e4ea391d40cbb0512b2358aeeebc
                     <select name=\"payment\" required>
                         <option value=\"\">- Оплата -</option>
                         <option value=\"1\">Наличными отправитель</option>
-                        <option value=\"1\">Наличными получатель</option>
-                        <option value=\"1\">Безналичный расчет</option>
+                        <option value=\"2\">Наличными получатель</option>
+                        <option value=\"3\">Безналичный расчет</option>
                     </select>
                 </div>
             </div>
@@ -238,7 +212,6 @@ class __TwigTemplate_851c1443ea4a79631b011e41cf88454e4ea391d40cbb0512b2358aeeebc
             </div>
         </div>
     </form>
-
 </section>", "C:\\xampp\\htdocs\\qsd/themes/zwiebl-zwiebl_stellar/pages/oformit-zakaz.htm", "");
     }
 }
