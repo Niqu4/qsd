@@ -11,7 +11,7 @@ return [
     |
     */
 
-    'activeTheme' => 'demo',
+    'activeTheme' => 'zwiebl-zwiebl_stellar',
 
     /*
     |--------------------------------------------------------------------------
